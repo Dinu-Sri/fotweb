@@ -54,72 +54,125 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-a{
 
-	 text-decoration: none;
-	 font-size: 2 em;
+@media screen and (min-width:700px) and (max-width: 1600px){
+
+
+.sectionone{
+	width: 60%;
+	float: right;
+	background-color: rgba(201, 76, 76, 0.3);
+}
+
+.sectiontwo{
+	width: 40%;
+	float: right;
+	background-color: rgba(0, 0, 255, 0.3);
 }
 
 
-.outerlist{
-
-margin: 5em;
-
-
-
-
-}
-
-
-/* unvisited link */
-a:link {
-  color: red;
-  font-size: 2 em;
-
-}
-
-/* visited link */
-a:visited {
-  color: green;
-  font-size: 2em;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-  font-size: 2em;
-
-}
-
-/* selected link */
-a:active {
-  color: blue;
-  font-size: 2em;
-}
-
-
-
-h3{
+.head{
 	font-size: 30px;
-}
-
-p{
-color: blue;
+	font-weight: bold;
 }
 
 
-#boldpara{
-	color: red;
-	font-weight: 600;
+.para{
+	font-size: 18px;
+	color: black;
 }
 
-.heading{
+}
 
-color: #1D5C8B;
-font-weight: 600;
-font-size: 30px;
+
+
+
+
+
+@media screen and (min-width:400px) and (max-width: 700px){
+
+.sectionone{
+	width: 100%;
+	float: none;
+	background-color: rgba(20, 6,6, 0.3);
+}
+
+.sectiontwo{
+	width: 100%;
+	float: none;
+	background-color: rgba(0, 32,55, 0.3);
+}
+
+.head{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.para{
+	font-size: 15px;
+	color: black;
+}
 
 }
+@media screen and (min-width:100px) and (max-width: 400px){
+
+.sectionone{
+	width: 100%;
+	float: none;
+
+}
+
+.sectiontwo{
+	width: 100%;
+	float: none;
+}
+
+.head{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.para{
+	font-size: 18px;
+	color: black;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -162,3 +215,11 @@ float: right;
 			float: none;
 	}
 }
+
+
+
+
+
+
+
+
